@@ -1,211 +1,407 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>SATWIK'S YT CLONE</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@300;400;700&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="CSS/main-content.css" />
-    <link rel="stylesheet" href="CSS/header.css" />
-    <link rel="stylesheet" href="CSS/sidemenu.css" />
-  </head>
-  <body>
-    <div class="main-container">
-      <div class="header">
-        <div class="left">
-          <img class="menubar-icon" src="Icons/menubar.png" />
-          <img class="yt-icon" src="Icons/yt.png" />
-        </div>
-  
-        <div class="middle">
-          <div class="search-bar">
-            <input class="search" type="text" placeholder="Search" />
-  
-            <img class="search-icon" src="Icons/search.png" />
-            <img class="mic-icon" src="Icons/mic.png" />
-          </div>
-        </div>
-  
-        <div class="right">
-          <img class="create-icon" src="Icons/create.png" />
-          <img class="notification-icon" src="Icons/notification.png" />
-          <img class="user-icon" src="Icons/user.png" />
-        </div>
-  
-        <!--     SIDEMENU     -->
-      </div>
-      <div class="sidemenu">
-        <div class="home">
-          <img src="Sidemenu/home.png" />
-          <p>Home</p>
-        </div>
-  
-        <div class="home">
-          <img src="Sidemenu/history.png" />
-          <p>History</p>
-        </div>
-  
-        <div class="home">
-          <img src="Sidemenu/shorts.png" />
-          <p>Shorts</p>
-        </div>
-  
-        <div class="home">
-          <img src="Sidemenu/trending.png" />
-          <p>Trending</p>
-        </div>
-  
-        <div class="home">
-          <img src="Sidemenu/ytpremium.png" />
-          <p>YT Premium</p>
-        </div>
-  
-        <div class="home">
-          <img src="Sidemenu/ytmusic.png" />
-          <p>YT Music</p>
-        </div>
-  
-        <div class="home">
-          <img src="Sidemenu/ytkids.png" />
-          <p>YT Kids</p>
-        </div>
-      </div>
-  
-      <!--     MAIN CONTENT     -->
-  
-      <div class="main-content-grid">
-        <div class="video-info">
-          <div class="thumbnail-pic-container">
-            <p>10:40</p>
-            <img class="thumbnail-pic" src="Thumbnails/1.webp" />
-          </div>
-          <div class="channel-pic-and-video-title-grid">
-            <div>
-              <img class="channel-picture" src="Channel-Picture/first-stop.jpg" />
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.css">
+    <title>YouTube</title>
+    <link rel="shortcut icon" href="youtube-logo-png-2061.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="header">
+        <div class="logo-container">
+            <i class="ri-menu-line"></i>
+            <div class="logo">
+                <div class="logo-img">
+                    <img src="Icons/youtube-logo-png-2061.png" alt="">
+                </div>
+                <h1 id="logo-txt">YouTube</h1>
             </div>
-            <div class="video-title">
-              <p class="video-topic">
-                Poaching Row Pits Infosys and WIPRO against Cognizant | Vantage
-                with Palki Sharma
-              </p>
-              <p class="channel-name">Firstpost</p>
-              <p class="time">views . ago</p>
-            </div>
-          </div>
         </div>
-  
-        <div class="video-info">
-          <div class="thumbnail-pic-container">
-            <p>10:40</p>
-            <img class="thumbnail-pic" src="Thumbnails/2.webp" />
-          </div>
-          <div class="channel-pic-and-video-title-grid">
-            <div>
-              <img
-                class="channel-picture"
-                src="Channel-Picture/study-IQ-IAS.jpg"
-              />
-            </div>
-            <div class="video-title">
-              <p class="video-topic">
-                Poaching Row Pits Infosys and WIPRO against Cognizant | Vantage
-                with Palki Sharma
-              </p>
-              <p class="channel-name">Firstpost</p>
-              <p class="time">views . ago</p>
-            </div>
-          </div>
+        <div class="search-container">
+            <form action="">
+                <input type="text" placeholder="Search">
+            </form>
+            <button class="search"><i class="ri-search-line"></i></button>
+            <button class="mic"><i class="ri-mic-fill"></i></button>
+
         </div>
-  
-        <div class="video-info">
-          <div class="thumbnail-pic-container">
-            <p>10:40</p>
-            <img class="thumbnail-pic" src="Thumbnails/3.webp" />
-          </div>
-          <div class="channel-pic-and-video-title-grid">
-            <div>
-              <img class="channel-picture" src="Channel-Picture/indicator.jpg" />
+        <div class="profile-container">
+            <i class="ri-video-add-line"></i>
+            <i class="ri-grid-fill"></i>
+            <i class="ri-notification-4-line"></i>
+            <div class="profile-box">
+                <img src="profile_pic.png" alt="">
             </div>
-            <div class="video-title">
-              <p class="video-topic">
-                Poaching Row Pits Infosys and WIPRO against Cognizant | Vantage
-                with Palki Sharma
-              </p>
-              <p class="channel-name">Firstpost</p>
-              <p class="time">views . ago</p>
-            </div>
-          </div>
         </div>
-  
-        <div class="video-info">
-          <div class="thumbnail-pic-container">
-            <p>10:40</p>
-            <img class="thumbnail-pic" src="Thumbnails/4.webp" />
-          </div>
-          <div class="channel-pic-and-video-title-grid">
-            <div>
-              <img class="channel-picture" src="Channel-Picture/siddhant.jpg" />
-            </div>
-            <div class="video-title">
-              <p class="video-topic">
-                Poaching Row Pits Infosys and WIPRO against Cognizant | Vantage
-                with Palki Sharma
-              </p>
-              <p class="channel-name">Firstpost</p>
-              <p class="time">views . ago</p>
-            </div>
-          </div>
-        </div>
-  
-        <div class="video-info">
-          <div class="thumbnail-pic-container">
-            <p>10:40</p>
-            <img class="thumbnail-pic" src="Thumbnails/5.webp" />
-          </div>
-          <div class="channel-pic-and-video-title-grid">
-            <div>
-              <img
-                class="channel-picture"
-                src="Channel-Picture/fighter-jet.jpg"
-              />
-            </div>
-            <div class="video-title">
-              <p class="video-topic">
-                Poaching Row Pits Infosys and WIPRO against Cognizant | Vantage
-                with Palki Sharma
-              </p>
-              <p class="channel-name">Firstpost</p>
-              <p class="time">views . ago</p>
-            </div>
-          </div>
-        </div>
-  
-        <div class="video-info">
-          <div class="thumbnail-pic-container">
-            <p>10:40</p>
-            <img class="thumbnail-pic" src="Thumbnails/6.webp" />
-          </div>
-          <div class="channel-pic-and-video-title-grid">
-            <div>
-              <img
-                class="channel-picture"
-                src="Channel-Picture/world-affairs.jpg"
-              />
-            </div>
-            <div class="video-title">
-              <p class="video-topic">
-                Poaching Row Pits Infosys and WIPRO against Cognizant | Vantage
-                with Palki Sharma
-              </p>
-              <p class="channel-name">Firstpost</p>
-              <p class="time">views . ago</p>
-            </div>
-          </div>
-        </div>
-      </div>
     </div>
-  </body>
+    <div class="body-container">
+        <div class="sidebar">
+            <div class="sidebar-items">
+                <a class="sidebar-item"><i class="ri-home-5-line"></i></i>Home</a>
+                <a class="sidebar-item"><i class="ri-compass-3-line"></i>Explore</a>
+                <a class="sidebar-item"><i class="ri-wireless-charging-line"></i>Shorts</a>
+                <a class="sidebar-item"><i class="ri-rss-line"></i>Subscription</a>
+                <hr>
+                <a class="sidebar-item"><i class="ri-links-line"></i>Library</a>
+                <a class="sidebar-item"><i class="ri-history-line"></i>History</a>
+                <a class="sidebar-item"><i class="ri-video-line"></i>Your videos</a>
+                <a class="sidebar-item"><i class="ri-time-line"></i>Watch later</a>
+                <a class="sidebar-item"><i class="ri-play-list-2-line"></i>All videos</a>
+                <a class="sidebar-item"><i class="ri-arrow-down-s-line"></i>Show more</a>
+                <hr>
+                <h4 class="more">More from youtube</h4>
+                <a class="sidebar-item"><i class="ri-keyboard-box-line"></i>Gaming</a>
+                <a class="sidebar-item"><i class="ri-live-line"></i>Live</a>
+                <a class="sidebar-item"><i class="ri-award-line"></i>Sports</a>
+                <hr>
+                <a class="sidebar-item"><i class="ri-settings-5-line"></i>Settings</a>
+                <a class="sidebar-item"><i class="ri-flag-line"></i>Report history</a>
+                <a class="sidebar-item"><i class="ri-question-line"></i>Help</a>
+                <a class="sidebar-item"><i class="ri-feedback-line"></i>Send feedback</a>
+
+            </div>
+
+        </div>
+        <div class="content">
+            <div class="chips-wrapper">
+                <div class="chip">
+                    <p>All</p>
+                </div>
+                <div class="chip">
+                    <p>CSS</p>
+                </div>
+                <div class="chip">
+                    <p>Current Affairs</p>
+                </div>
+                <div class="chip">
+                    <p>DSA</p>
+                </div>
+                <div class="chip">
+                    <p>HTML</p>
+                </div>
+                <div class="chip">
+                    <p>CSS</p>
+                </div>
+                <div class="chip">
+                    <p>React</p>
+                </div>
+                <div class="chip">
+                    <p>CodeChef</p>
+                </div>
+                <div class="chip">
+                    <p>User interface design</p>
+                </div>
+            </div>
+            <div class="video-container">
+                <div class="video-content-cover">
+                    <div class="video-content">
+                        <a href="https://www.youtube.com/watch?v=FNhjbNQ8Sik" class="video-box">
+                            <img src="Thumbnails/5.webp" alt="">
+                        </a>
+                        <div class="video-details">
+                            <div class="channel-logo">
+                                <img src="Channel-Picture/fighter-jet.jpg" alt="">
+                            </div>
+                            <div class="detail">
+                                <h3 class="title">Fighter Jet</h3>
+                                <div class="channel-name">US Military Power</div>
+                                <div class="views-upload">
+                                    <div class="views">300K views .</div>
+                                    <div class="upload">1 year ago</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="hidden-content">
+                            <div class="btn"><i class="ri-time-line"></i>Watch later</div>
+                            <div class="btn"><i class="ri-play-list-2-line"></i>Add to queue</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="video-content-cover">
+                    <div class="video-content">
+                        <a href="https://www.youtube.com/watch?v=FNhjbNQ8Sik" class="video-box">
+                            <img src="Thumbnails/1.webp" alt="">
+                        </a>
+                        <div class="video-details">
+                            <div class="channel-logo">
+                                <img src="Channel-Picture/first-stop.jpg" alt="">
+                            </div>
+                            <div class="detail">
+                                <h3 class="title">Cognizant</h3>
+                                <div class="channel-name">First Stop</div>
+                                <div class="views-upload">
+                                    <div class="views">500K views .</div>
+                                    <div class="upload">2 year ago</div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="hidden-content">
+                            <div class="btn"><i class="ri-time-line"></i>Watch later</div>
+                            <div class="btn"><i class="ri-play-list-2-line"></i>Add to queue</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="video-content-cover">
+                    <div class="video-content">
+                        <a href="https://www.youtube.com/watch?v=FNhjbNQ8Sik" class="video-box">
+                            <img src="Thumbnails/3.webp" alt="">
+                        </a>
+                        <div class="video-details">
+                            <div class="channel-logo">
+                                <img src="Channel-Picture/indicator.jpg" alt="">
+                            </div>
+                            <div class="detail">
+                                <h3 class="title">Indicators</h3>
+                                <div class="channel-name">Technical Trader</div>
+                                <div class="views-upload">
+                                    <div class="views">281K views .</div>
+                                    <div class="upload">1 year ago</div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="hidden-content">
+                            <div class="btn"><i class="ri-time-line"></i>Watch later</div>
+                            <div class="btn"><i class="ri-play-list-2-line"></i>Add to queue</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="video-content-cover">
+                    <div class="video-content">
+                        <a href="https://www.youtube.com/watch?v=FNhjbNQ8Sik" class="video-box">
+                            <img src="Thumbnails/4.webp" alt="">
+                        </a>
+                        <div class="video-details">
+                            <div class="channel-logo">
+                                <img src="Channel-Picture/siddhant.jpg" alt="">
+                            </div>
+                            <div class="detail">
+                                <h3 class="title">Price Action</h3>
+                                <div class="channel-name">Siddhant</div>
+                                <div class="views-upload">
+                                    <div class="views">150K views .</div>
+                                    <div class="upload">1 year ago</div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="hidden-content">
+                            <div class="btn"><i class="ri-time-line"></i>Watch later</div>
+                            <div class="btn"><i class="ri-play-list-2-line"></i>Add to queue</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="video-content-cover">
+                    <div class="video-content">
+                        <a href="https://www.youtube.com/watch?v=FNhjbNQ8Sik" class="video-box">
+                            <img src="Thumbnails/2.webp" alt="">
+                        </a>
+                        <div class="video-details">
+                            <div class="channel-logo">
+                                <img src="Channel-Picture/study-IQ-IAS.jpg" alt="">
+                            </div>
+                            <div class="detail">
+                                <h3 class="title">Current Affairs</h3>
+                                <div class="channel-name">study-IQ-IAS</div>
+                                <div class="views-upload">
+                                    <div class="views">181K views .</div>
+                                    <div class="upload">3 months ago</div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="hidden-content">
+                            <div class="btn"><i class="ri-time-line"></i>Watch later</div>
+                            <div class="btn"><i class="ri-play-list-2-line"></i>Add to queue</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="video-content-cover">
+                    <div class="video-content">
+                        <a href="https://www.youtube.com/watch?v=FNhjbNQ8Sik" class="video-box">
+                            <img src="Thumbnails/6.webp" alt="">
+                        </a>
+                        <div class="video-details">
+                            <div class="channel-logo">
+                                <img src="Channel-Picture/world-affairs.jpg" alt="">
+                            </div>
+                            <div class="detail">
+                                <h3 class="title">Current Affairs</h3>
+                                <div class="channel-name">World Affairs</div>
+                                <div class="views-upload">
+                                    <div class="views">241K views .</div>
+                                    <div class="upload">1 year ago</div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="hidden-content">
+                            <div class="btn"><i class="ri-time-line"></i>Watch later</div>
+                            <div class="btn"><i class="ri-play-list-2-line"></i>Add to queue</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="video-content-cover">
+                    <div class="video-content">
+                        <a href="https://www.youtube.com/watch?v=FNhjbNQ8Sik" class="video-box">
+                            <img src="Thumbnails/shark_tank.webp" alt="">
+                        </a>
+                        <div class="video-details">
+                            <div class="channel-logo">
+                                <img src="Channel-Picture/sony.jpg" alt="">
+                            </div>
+                            <div class="detail">
+                                <h3 class="title">Shark Tank</h3>
+                                <div class="channel-name">Sony</div>
+                                <div class="views-upload">
+                                    <div class="views">781K views .</div>
+                                    <div class="upload">1 year ago</div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="hidden-content">
+                            <div class="btn"><i class="ri-time-line"></i>Watch later</div>
+                            <div class="btn"><i class="ri-play-list-2-line"></i>Add to queue</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="video-content-cover">
+                    <div class="video-content">
+                        <a href="https://www.youtube.com/watch?v=FNhjbNQ8Sik" class="video-box">
+                            <img src="Thumbnails/tech.webp" alt="">
+                        </a>
+                        <div class="video-details">
+                            <div class="channel-logo">
+                                <img src="Channel-Picture/mrwhosetheboss.jpg" alt="">
+                            </div>
+                            <div class="detail">
+                                <h3 class="title">Techy Gadgets</h3>
+                                <div class="channel-name">Mrwhosetheboss</div>
+                                <div class="views-upload">
+                                    <div class="views">281K views .</div>
+                                    <div class="upload">1 year ago</div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="hidden-content">
+                            <div class="btn"><i class="ri-time-line"></i>Watch later</div>
+                            <div class="btn"><i class="ri-play-list-2-line"></i>Add to queue</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="video-content-cover">
+                    <div class="video-content">
+                        <a href="https://www.youtube.com/watch?v=FNhjbNQ8Sik" class="video-box">
+                            <img src="Thumbnails/srilanka.webp" alt="">
+                        </a>
+                        <div class="video-details">
+                            <div class="channel-logo">
+                                <img src="Channel-Picture/study-IQ-IAS.jpg" alt="">
+                            </div>
+                            <div class="detail">
+                                <h3 class="title">Current Affairs</h3>
+                                <div class="channel-name">study-IQ-IAS</div>
+                                <div class="views-upload">
+                                    <div class="views">681K views .</div>
+                                    <div class="upload">1 year ago</div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="hidden-content">
+                            <div class="btn"><i class="ri-time-line"></i>Watch later</div>
+                            <div class="btn"><i class="ri-play-list-2-line"></i>Add to queue</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="video-content-cover">
+                    <div class="video-content">
+                        <a href="https://www.youtube.com/watch?v=FNhjbNQ8Sik" class="video-box">
+                            <img src="Thumbnails/russsia.webp" alt="">
+                        </a>
+                        <div class="video-details">
+                            <div class="channel-logo">
+                                <img src="Channel-Picture/study-IQ-IAS.jpg" alt="">
+                            </div>
+                            <div class="detail">
+                                <h3 class="title">Current Affairs</h3>
+                                <div class="channel-name">study-IQ-IASe</div>
+                                <div class="views-upload">
+                                    <div class="views">211K views .</div>
+                                    <div class="upload">1 year ago</div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="hidden-content">
+                            <div class="btn"><i class="ri-time-line"></i>Watch later</div>
+                            <div class="btn"><i class="ri-play-list-2-line"></i>Add to queue</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="video-content-cover">
+                    <div class="video-content">
+                        <a href="https://www.youtube.com/watch?v=FNhjbNQ8Sik" class="video-box">
+                            <img src="Thumbnails/geopolitics.webp" alt="">
+                        </a>
+                        <div class="video-details">
+                            <div class="channel-logo">
+                                <img src="Channel-Picture/study-IQ-IAS.jpg" alt="">
+                            </div>
+                            <div class="detail">
+                                <h3 class="title">Current Affairs</h3>
+                                <div class="channel-name">study-IQ-IASe</div>
+                                <div class="views-upload">
+                                    <div class="views">411K views .</div>
+                                    <div class="upload">3 months ago</div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="hidden-content">
+                            <div class="btn"><i class="ri-time-line"></i>Watch later</div>
+                            <div class="btn"><i class="ri-play-list-2-line"></i>Add to queue</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="video-content-cover">
+                    <div class="video-content">
+                        <a href="https://www.youtube.com/watch?v=FNhjbNQ8Sik" class="video-box">
+                            <img src="Thumbnails/covid.webp" alt="">
+                        </a>
+                        <div class="video-details">
+                            <div class="channel-logo">
+                                <img src="Channel-Picture/study-IQ-IAS.jpg" alt="">
+                            </div>
+                            <div class="detail">
+                                <h3 class="title">Current Affairs</h3>
+                                <div class="channel-name">study-IQ-IASe</div>
+                                <div class="views-upload">
+                                    <div class="views">611K views .</div>
+                                    <div class="upload">6 months ago</div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="hidden-content">
+                            <div class="btn"><i class="ri-time-line"></i>Watch later</div>
+                            <div class="btn"><i class="ri-play-list-2-line"></i>Add to queue</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
 </html>
